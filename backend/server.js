@@ -6,7 +6,7 @@ import userRoutes from "./routers/userRoutes.js";
 import taskRoutes from "./routers/taskRoutes.js";
 import cookieParser from "cookie-parser";
 import path from "path"
-dotenv.config({ path: './config/config.env' });
+dotenv.config();
 
 const app = express();
 app.use(express.json());
